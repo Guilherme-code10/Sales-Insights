@@ -50,6 +50,24 @@ python analise_vendas.py
 
 O programa exibe um resumo no terminal e gera gráficos em PNG dentro da pasta `graficos/`.
 
+## 📊 Visualizações
+
+### Receita por produto
+
+![Receita por produto](graficos/receita_por_produto.png)
+
+### Receita mensal
+
+![Receita mensal](graficos/receita_mensal.png)
+
+### Receita por região
+
+![Receita por região](graficos/receita_por_regiao.png)
+
+### Quantidade vendida por produto
+
+![Quantidade vendida por produto](graficos/quantidade_por_produto.png)
+
 ## 📊 Resultados do conjunto de dados
 
 Com os dados fictícios incluídos no projeto:
