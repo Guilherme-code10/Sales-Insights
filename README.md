@@ -1,45 +1,82 @@
-📈 Sales Insights – Análise de Vendas
+# 📈 Sales Insights — Análise de Vendas
 
-Este projeto tem como objetivo analisar dados fictícios de vendas para extrair insights de negócio e apoiar a tomada de decisão estratégica. Ele integra conhecimentos de Administração (análise de desempenho e gestão) e Tecnologia (tratamento e visualização de dados).
+Projeto de análise de dados com foco em transformar dados fictícios de vendas em informações úteis para tomada de decisão.
 
-🚀 Objetivo
+A proposta combina conhecimentos de **Administração** e **Tecnologia**, utilizando Python para tratamento, análise e visualização de dados.
 
-Demonstrar como a análise de dados pode ajudar empresas a:
+## 🎯 Objetivo
 
-Identificar seus produtos mais rentáveis.
+Demonstrar como dados de vendas podem ajudar a responder perguntas como:
 
-Entender sazonalidades de vendas.
+- Quais produtos geram mais receita?
+- Quais regiões apresentam melhor desempenho?
+- Quais meses concentram maior faturamento?
+- Quais produtos possuem maior volume de vendas?
 
-Apoiar decisões sobre estoque e marketing.
+## 🛠️ Tecnologias
 
-🛠️ Tecnologias Utilizadas
+- Python
+- Pandas
+- Matplotlib
+- Git
+- GitHub
 
-Python
+## 📁 Estrutura
 
-Pandas (manipulação de dados)
+```text
+Sales-Insights/
+├── dados/
+│   └── vendas.csv
+├── analise_vendas.py
+├── requirements.txt
+└── README.md
+```
 
-Matplotlib / Seaborn (visualização)
+A pasta `graficos/` é criada automaticamente ao executar a análise.
 
-Jupyter Notebook
+## ▶️ Como executar
 
-Git & GitHub (versionamento e portfólio)
+Instale as dependências:
 
-📚 O que aprendi
+```bash
+pip install -r requirements.txt
+```
 
-Durante o desenvolvimento deste projeto, aprendi:
+Execute:
 
-Estruturar análises em Jupyter Notebook.
+```bash
+python analise_vendas.py
+```
 
-Criar gráficos claros e profissionais com Matplotlib e Seaborn.
+O programa exibe um resumo no terminal e gera gráficos em PNG dentro da pasta `graficos/`.
 
-Identificar métricas relevantes para a gestão de negócios.
+## 📊 Resultados do conjunto de dados
 
-Organizar projetos de análise de dados para serem compartilhados como portfólio.
+Com os dados fictícios incluídos no projeto:
 
-📊 Exemplos de Insights
+- **Receita total:** R$ 437.650,00
+- **Produto com maior receita:** Notebook — R$ 164.500,00 (**37,6%** do total)
+- **Região com maior receita:** Centro-Oeste — R$ 115.700,00
+- **Mês com maior receita:** novembro de 2026 — R$ 60.600,00
 
-📌 Produto X gera 35% da receita total.
+## 📚 Aprendizados
 
-📌 O mês de dezembro tem aumento de 40% nas vendas.
+Neste projeto são praticados conceitos como:
 
-📌 Região Sudeste concentra a maior parte dos clientes.
+- Leitura e tratamento de dados com Pandas
+- Criação de métricas de negócio
+- Agrupamento e consolidação de informações
+- Análise de receita por produto, região e período
+- Criação de visualizações com Matplotlib
+- Organização de um projeto de análise de dados para portfólio
+
+## ℹ️ Observação
+
+Os dados utilizados são **fictícios** e foram criados exclusivamente para fins de estudo e demonstração.
+
+## 👨‍💻 Autor
+
+**Guilherme Augusto Morais**
+
+- GitHub: https://github.com/Guilherme-code10
+- LinkedIn: https://www.linkedin.com/in/guilherme-augusto-morais/
